@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Vídeo Automático con Anuncios</title>
   <link rel="stylesheet" href="style.css" />
+  <!-- Código de Monetag -->
+  <meta name="monetag" content="eac25cb3d60d3c223cc09bcb5b1cb2d7">
 </head>
 <body>
 
@@ -14,17 +16,14 @@
     Tu navegador no soporta el elemento de video.
   </video>
 
-  <!-- Contenedor para anuncios -->
+  <!-- Contenedor de anuncios -->
   <div id="ad-container" class="ad-container">
-    <!-- Aquí se mostrará el anuncio de Monetag -->
-    <div id="monetag-ad"></div>
+    <!-- Script de anuncio de Monetag -->
+    <script async src="https://cdn.monetag.com/ads.js "></script>
   </div>
 
-  <!-- Script principal -->
+  <!-- Script personalizado -->
   <script src="script.js"></script>
-
-  <!-- Script de Monetag desde carpeta local -->
-  <script async src="ads/monetag.js"></script>
 
 </body>
 </html>
